@@ -1,9 +1,5 @@
 # Errors
 
-<aside class="notice">
-This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
-</aside>
-
 The Item API uses the following error codes:
 
 
@@ -11,7 +7,7 @@ Error Code | Meaning
 ---------- | -------
 400 | Bad Request -- Your request is invalid.
 401 | Unauthorized -- Your Token is wrong.
-403 | Forbidden -- The kitten requested is hidden for administrators only.
+403 | Forbidden -- The item requested is hidden for administrators only.
 404 | Not Found -- The specified item could not be found.
 405 | Method Not Allowed -- You tried to access a item with an invalid method.
 429 | Too Many Requests -- You're requesting too many item! Slow down!

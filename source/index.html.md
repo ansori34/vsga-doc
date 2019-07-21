@@ -2,7 +2,7 @@
 title: API Reference
 
 toc_footers:
-  - <a href='https://www.linkedin.com/in/rahmat-ansori/'>About Author</a>
+  - <a href='https://www.linkedin.com/in/rahmat-ansori/' target='_blank'>About Author</a>
 
 includes:
   - errors
@@ -11,8 +11,6 @@ includes:
 # Introduction
 
 Welcome to the Item API! You can use our API to access Item API endpoints, which can get information on various items in our database.
-
-This example API documentation page was created with [Slate](https://github.com/lord/slate). Feel free to edit it and use it as a base for your own API's documentation.
 
 # Items
 
@@ -27,14 +25,14 @@ This example API documentation page was created with [Slate](https://github.com/
   "data": [
     {
       "id": 1,
-      "brand": "Dell",
-      "name": "Laptop",
+      "brand": "MSI",
+      "name": "MSI GL63 8RD Gaming Laptop",
       "price": 4000000
     },
     {
       "id": 2,
-      "brand": "HP",
-      "name": "Printer",
+      "brand": "ASUS",
+      "name": "ROG Strix XG32VQR Monitor",
       "price": 1000000
     }
   ]
@@ -63,8 +61,8 @@ token | Create your own tokens to differentiate data from other participants
   "message": "Getting Item Success",
   "data": {
     "id": 1,
-    "brand": "Dell",
-    "name": "Laptop",
+    "brand": "MSI",
+    "name": "MSI GL63 8RD Gaming Laptop",
     "price": 4000000
   }
 }
