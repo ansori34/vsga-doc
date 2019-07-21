@@ -22,7 +22,7 @@ Welcome to the Item API! You can use our API to access Item API endpoints, which
 {
   "code": 200,
   "message": "Getting Items Success",
-  "data": [
+  "items": [
     {
       "id": 1,
       "brand": "MSI",
@@ -59,7 +59,7 @@ token | Create your own tokens to differentiate data from other participants
 {
   "code": 200,
   "message": "Getting Item Success",
-  "data": {
+  "item": {
     "id": 1,
     "brand": "MSI",
     "name": "MSI GL63 8RD Gaming Laptop",
