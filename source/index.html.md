@@ -81,6 +81,32 @@ Parameter | Description
 token | Create your own tokens to differentiate data from other participants
 id | The id of the item to retrieve
 
+## Create an Item
+
+> The above command returns JSON structured like this:
+
+```json
+{
+  "code": 200,
+  "message": "Adding Item Success"
+}
+```
+
+This endpoint Create a new item.
+
+### HTTP Request
+
+`POST https://vsga.herokuapp.com/<token>/item/create`
+
+### URL Parameters
+
+Parameter | Method | Description
+--------- | ------ | -----------
+token | GET | Create your own tokens to differentiate data from other participants
+name | POST | The new name for item
+brand | POST | The new brand for item
+price | POST | The new price for item
+
 ## Update a Specific Item
 
 > The above command returns JSON structured like this:
