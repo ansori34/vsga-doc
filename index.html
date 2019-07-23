@@ -224,6 +224,9 @@
                     <a href="#get-a-specific-item" class="toc-h2 toc-link" data-title="Get a Specific Item">Get a Specific Item</a>
                   </li>
                   <li>
+                    <a href="#create-an-item" class="toc-h2 toc-link" data-title="Create an Item">Create an Item</a>
+                  </li>
+                  <li>
                     <a href="#update-a-specific-item" class="toc-h2 toc-link" data-title="Update a Specific Item">Update a Specific Item</a>
                   </li>
                   <li>
@@ -316,6 +319,47 @@
 <td>The id of the item to retrieve</td>
 </tr>
 </tbody></table>
+<h2 id='create-an-item'>Create an Item</h2>
+<blockquote>
+<p>The above command returns JSON structured like this:</p>
+</blockquote>
+<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">200</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Adding Item Success"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<p>This endpoint Create a new item.</p>
+<h3 id='http-request-3'>HTTP Request</h3>
+<p><code>POST https://vsga.herokuapp.com/&lt;token&gt;/item/create</code></p>
+<h3 id='url-parameters-3'>URL Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>token</td>
+<td>GET</td>
+<td>Create your own tokens to differentiate data from other participants</td>
+</tr>
+<tr>
+<td>name</td>
+<td>POST</td>
+<td>The new name for item</td>
+</tr>
+<tr>
+<td>brand</td>
+<td>POST</td>
+<td>The new brand for item</td>
+</tr>
+<tr>
+<td>price</td>
+<td>POST</td>
+<td>The new price for item</td>
+</tr>
+</tbody></table>
 <h2 id='update-a-specific-item'>Update a Specific Item</h2>
 <blockquote>
 <p>The above command returns JSON structured like this:</p>
@@ -326,9 +370,9 @@
 </span><span class="p">}</span><span class="w">
 </span></code></pre>
 <p>This endpoint update a specific item data.</p>
-<h3 id='http-request-3'>HTTP Request</h3>
+<h3 id='http-request-4'>HTTP Request</h3>
 <p><code>POST https://vsga.herokuapp.com/&lt;token&gt;/item/&lt;id&gt;/update</code></p>
-<h3 id='url-parameters-3'>URL Parameters</h3>
+<h3 id='url-parameters-4'>URL Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
@@ -372,9 +416,9 @@
 </span><span class="p">}</span><span class="w">
 </span></code></pre>
 <p>This endpoint deletes a specific item.</p>
-<h3 id='http-request-4'>HTTP Request</h3>
+<h3 id='http-request-5'>HTTP Request</h3>
 <p><code>GET https://vsga.herokuapp.com/&lt;token&gt;/item/&lt;id&gt;/delete</code></p>
-<h3 id='url-parameters-4'>URL Parameters</h3>
+<h3 id='url-parameters-5'>URL Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
